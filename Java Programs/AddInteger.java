@@ -12,3 +12,4 @@ public class AddTwoIntegers {
         System.out.println("The sum is: " + (first + second + third));
     }
 }
+// integer sum
