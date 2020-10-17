@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> //golden ratio
 using namespace std;
 
 void main()
