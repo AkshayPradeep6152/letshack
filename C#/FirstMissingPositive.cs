@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace MissingPositive {
     class MissingPositive {
         // Return the first missing positive number in a list
-        // [-4, 1, 3, 5, 7] -> 2
+        // [1, 3, 5, 7] -> 2
         public int FirstMissingPositive (int[] nums) {
             HashSet<int> numbers = new HashSet<int> ();
 
