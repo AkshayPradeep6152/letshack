@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<ctype.h>
+main()
+{
+char ch;
+printf("press any key");
+ch = getchar();
+if(isalpha(ch)>0)
+printf("character is a letter ");
+
+else
+if(isdigit(ch)>0)
+printf(" character is a digit");
+else 
+printf("the character is not alphanumeric ");
+}
