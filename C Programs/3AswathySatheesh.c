@@ -3,11 +3,11 @@ void main( )
 {   
   int n, count = 1;   
   float x, average, sum = 0;   
-  printf("Enter the value of n?");  
+  printf("Enter value of n?");  
   scanf ("%d",&n);   
   while (count <= n)   
      {   
-      printf ("Enter the %d number?",count);   
+      printf ("Enter %d number?",count);   
       scanf("%f", &x);   
       sum += x;   
       ++count;   
